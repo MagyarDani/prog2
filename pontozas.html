@@ -25,3 +25,46 @@
           </ul>
       </nav>
     </div>
+<main>
+    <table style="width: 100%; "border="0">
+      <tbody>
+      <tr>
+      <td>
+      <strong>Középszintű vizsga</strong></td>
+      <td colspan="2"><strong>Írásbeli</strong></td>
+      <td><strong>Szóbeli</strong></td>
+      </tr>
+      <tr>
+      <td>magyar nyelv és irodalom</td>
+      <td> <p>nyelvi-műveltségi feladatsor: 40 pont</p><input type="number" name="p" id="magyar.first" min="0" max="40"></td>
+      <td><p>Szövegalkotás: 60 pont</p><input type="number" name="p" id="" min="magyar.second" max="60"></td>
+      <td><p>50 pont</p><input type="number" name="p" id="magyar.third" min="0" max="50"></td> 
+      </tr>
+      <tr>
+        <td>matekmatika</td>
+        <td> <p> I. rész 30 pont</p><input type="number" name="p" id="matek.first" min="0" max="30"></td>
+        <td><p>II. rész 70 pont</p><input type="number" name="p" id="matek.second" min="0" max="70"></td>
+        <td><p>50 pont</p><input type="number" name="p" id="matek.third" min="0" max="50"></td>
+      </tr>
+      <tr>
+        <td>történelem</td>
+        <td> <p>Rövid feladatok: 45 pont</p><input type="number" name="p" id="tori.first" min="0" max="45"></td>
+        <td><p>esszék: 45 pont</p><input type="number" name="p" id="tori.second" min="0" max="45"></td>
+        <td><p>60 pont</p><input type="number" name="p" id="tori.third" min="0" max="60"></td>
+      </tr>
+      <tr>
+        <td>Idegen nyelv</td>
+        <td> <p>olvasott szöveg értése 33 pont; nyelvhelyesség: 18 pont</p><input type="number" name="p" id="angol.first" min="0" max="51"></td>
+        <td><p>hallott szöveg értése: 33 pont; íráskészség: 33 pont</p><input type="number" name="p" id="angol.second" min="0" max="66"></td>
+        <td><p>33 pont</p><input type="number" name="p" id="angol.third" min="0" max="33"></td>
+      </tr>
+      </tbody>
+    </table>
+    <br><br>
+
+    <input type="button" value="Kiértékelés" onclick="Ertekel()">
+
+    <p>Az osztályzat: <span id="eredmeny"></span></p>
+  </main>
+
+
