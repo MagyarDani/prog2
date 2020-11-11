@@ -1,0 +1,96 @@
+body
+{
+
+}
+.bg-fej
+{
+    background-position: center;
+    background-image:url("kep3.jpg");
+    margin:0px auto;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding-top: 75px;
+    color: white;
+}
+.bg-fej h1{
+    color: white;
+    font-size: 300%;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+#lajos
+{
+    
+    background-color: #826c47;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    font-size: 75%;
+    padding: 5px;
+    border-left: 1px solid #3F4F5F;
+    border-right: 1px solid #3F4F5F;
+    width:700px;
+}
+
+.lajos
+{
+    height:500px;;
+
+}
+
+#kiegeszites
+{
+    border-bottom: 15px solid #934B28;
+    padding: 15px;
+    color: #000;
+    font-size: 14px;
+    border-radius: 0;
+    background-color: #D0BB99;
+}
+
+#wrapper
+{
+    background-color: black;
+}
+
+.nav 
+{
+    background-color: black;
+    overflow: hidden;
+}
+  
+nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+.nav a:active 
+{
+    background-color: white;
+    color:#4CAF50;
+}
+
+h2, h3
+{
+    background-color:#D0BB99 ;
+    
+}
+
+footer
+{
+    text-align: center;
+}
+
