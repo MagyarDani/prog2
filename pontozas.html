@@ -33,30 +33,35 @@
       <strong>Középszintű vizsga</strong></td>
       <td colspan="2"><strong>Írásbeli</strong></td>
       <td><strong>Szóbeli</strong></td>
+      <td><p>Összpontszám</p></td>
       </tr>
       <tr>
       <td>magyar nyelv és irodalom</td>
       <td> <p>nyelvi-műveltségi feladatsor: 40 pont</p><input type="number" id="magyar.first" min="0" max="40"></td>
       <td><p>Szövegalkotás: 60 pont</p><input type="number" id="magyar.second" min="0" max="60"></td>
       <td><p>50 pont</p><input type="number" id="magyar.third" min="0" max="50"></td> 
+        <td><p id="magyar.osszeg" ></p></td>
       </tr>
       <tr>
         <td>matekmatika</td>
         <td> <p> I. rész 30 pont</p><input type="number" id="matek.first" min="0" max="30"></td>
         <td><p>II. rész 70 pont</p><input type="number" id="matek.second" min="0" max="70"></td>
         <td><p>50 pont</p><input type="number" id="matek.third" min="0" max="50"></td>
+      <td><p id="matek.osszeg" ></p></td>
       </tr>
       <tr>
         <td>történelem</td>
         <td> <p>Rövid feladatok: 45 pont</p><input type="number" id="tori.first" min="0" max="45"></td>
         <td><p>esszék: 45 pont</p><input type="number"  id="tori.second" min="0" max="45"></td>
         <td><p>60 pont</p><input type="number" id="tori.third" min="0" max="60"></td>
+      <td><p id="tori.osszeg" ></p></td>
       </tr>
       <tr>
         <td>Idegen nyelv</td>
         <td> <p>olvasott szöveg értése 33 pont; nyelvhelyesség: 18 pont</p><input type="number" id="angol.first" min="0" max="51"></td>
         <td><p>hallott szöveg értése: 33 pont; íráskészség: 33 pont</p><input type="number" id="angol.second" min="0" max="66"></td>
         <td><p>33 pont</p><input type="number" id="angol.third" min="0" max="33"></td>
+      <td><p id="angol.osszeg" ></p></td>
       </tr>
       </tbody>
     </table>
@@ -64,7 +69,7 @@
 
     <input type="button" value="Kiértékelés" onclick="Ertekel()">
 
-    <p>Az osztályzat: <span id="eredmeny"></span></p>
+    <p>Az osztályzat: <span id="eredmeny"></span> %</p>
   </main>
 
 
